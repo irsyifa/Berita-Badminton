@@ -29,14 +29,12 @@ for (i in 1:length(link)){
   tabel[i,6]<-paste(url1%>%html_node(".read__right.read__keyword")%>%html_nodes("p")%>%html_text2()%>%remove_space(),collapse = "")
   tabel[i,7]<-link[i]
 }
-tabel
 
 
 
 tabel<-as.data.frame(tabel)
 col_names<-c("Judul Berita","Tanggal | Waktu Terbit","Penulis",'Editor',"Sumber","Berita","Link Berita")
 names(tabel)<-col_names
-tabel
 
 
 
