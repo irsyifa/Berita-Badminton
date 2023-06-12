@@ -6,8 +6,10 @@
 
 - [Tentang](#scroll-tentang)
 - [Requirements](#exclamation-requirements)
+- [Parsing HTML dengan Rvest](#exclamation-parsing-html)
 - [Deskripsi Data](#heavy_check_mark-deskripsi-data)
 - [Screenshot](#rice_scene-screenshot)
+- [Reference](
 
 
 ## :scroll: Tentang
@@ -23,12 +25,20 @@ library(mongolite)
 library(rvest)
 library(tidyverse)
 ```
-## :heavy_check_mark: Teknink Parsing HTML dan Deskripsi Data
+
+## :exclamation: Parsing HTML dengan Rvest
+Rvest adalah package R yang popular digunakan untuk parsing HTML, dikembangkan oleh Hadley Wickham dan merupakan bagian dari tidyverse.
+Beberapa fungsi dasar pada rvest:
+1. read_html()  : untuk membaca source HTML dari halaman web
+2. html_node(), html_nodes(), html_element(), html_elements() : untuk memilih node atau element HTML berdasarkan CSS selector atau xpath
+3. html_attr(), html_attrs()  : untuk mengekstrak atribut, tag dari suatu elemen HTML terpilih
+4. html_text(), html_text2()  : untuk mengekstrak text dari elemen HTML terpilih
+5. html_table() : untuk mengekstrak dan konversi tabel HTML menjadi dataframe
+
+## :heavy_check_mark: Deskripsi Data
 
 Pada database ini, penulis akan menerapkan teknik parsing HTML dengan Rvest pada website **bolasport.com**, khususnya berita bulu tangkis dengan menggunakan url berikut:
-https://www.bolasport.com/tag/bulu-tangkis
-Teknik ini digunakan untuk memperoleh data antara lain :
-
+https://www.bolasport.com/tag/bulu-tangkis, dimana data yang diperoleh antara lain :
 1. Judul Berita
 2. Tanggal | Waktu Terbit
 3. Penulis
@@ -72,9 +82,12 @@ Kolom 7 : Link Berita.
 ![kolom 5](https://github.com/irsyifa/Berita-Badminton/assets/103913260/601afc22-2baf-4fb3-a7c9-9a55bec332a1.PNG)
 ![kolom 6](https://github.com/irsyifa/Berita-Badminton/assets/103913260/4d8d8d77-57c9-4984-ab50-39bffa260577.PNG)
 
-
-
 ## :smiley_cat: My Github
 
 [Irsyifa Mayzela Afnan](https://github.com/irsyifa) G1501222062
+
+## :smiley_cat: Reference
+[alfanugraha](https://rpubs.com/alfanugraha/sta1562-p13)
+[nurandi](https://www.nurandi.id/blog/web-scraping-dengan-r-dan-rvest/)
+
 
