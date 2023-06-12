@@ -59,13 +59,13 @@ contoh<-url %>% html_nodes(".read__title") %>% html_text2()
 ```
 ### Hasil Scraping Tabel pada R
 Terdapat 15 baris dan 7 kolom.
-Kolom 1 : Judul Berita
-Kolom 2 : Tanggal | Waktu Terbit
-Kolom 3 : Penulis
-Kolom 4 : Editor
-Kolom 5 : Sumber
-Kolom 6 : Berita
-Kolom 7 : Link Berita.
+- Kolom 1 : Judul Berita
+- Kolom 2 : Tanggal | Waktu Terbit
+- Kolom 3 : Penulis
+- Kolom 4 : Editor
+- Kolom 5 : Sumber
+- Kolom 6 : Berita
+- Kolom 7 : Link Berita.
 
 ![kolom 1](https://github.com/irsyifa/Berita-Badminton/assets/103913260/013a64d3-6f9c-48f4-939e-4451eae74ee7.PNG)
 ![kolom 2,3,4,5](https://github.com/irsyifa/Berita-Badminton/assets/103913260/719296eb-59d0-4ed2-b6a4-cd4d8fa39c44.PNG)
