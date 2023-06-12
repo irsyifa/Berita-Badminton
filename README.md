@@ -7,23 +7,38 @@
 ## :bookmark_tabs: Menu
 
 - [Tentang](#scroll-tentang)
+- [Deskripsi Data](#heavy_check_mark-deskripsi-data)
 - [Screenshot](#rice_scene-screenshot)
 - [Requirements](#exclamation-requirements)
-- [Deskripsi Data](#heavy_check_mark-deskripsi-data)
 - [Struktur Folder](#open_file_folder-struktur-folder)
 
 ## :scroll: Tentang
 
 BolaSport.com merupakan situs web yang memberikan berita atau informasi seputar olahraga. pada halaman awal website ini terdapat beberapa menu diantaranya :bola, ole, olimpik, lifestyle, komunitas, video, kolom, dan e-sport. Namun yang menjadi fokus penulis untuk dilakukan scraping yaitu berita bulu tangkis. 
 
-Penulis akan melakukan pengikisan/scrap terkait beberapa hal, yaitu:
+## :exclamation: Requirements
+
+Parsing HTML yaitu membaca kode HTML, serta mengekstrak informasi relevan (seperti judul, paragraf, lirik, bold text, dan lainnnya. 
+Paket R yang digunakan yaitu :
+```sql
+library(mongolite)
+library(rvest)
+library(tidyverse)
+```
+## :heavy_check_mark: Teknink Parsing HTML dan Deskripsi Data
+
+Pada database ini, penulis akan menerapkan teknik parsing HTML dengan Rvest pada website **bolasport.com**, khususnya berita bulu tangkis dengan menggunakan url berikut:
+https://www.bolasport.com/tag/bulu-tangkis
+Teknik ini digunakan untuk memperoleh data antara lain :
+
 1. Judul Berita
 2. Tanggal | Waktu Terbit
 3. Penulis
 4. Editor
 5. Sumber
 6. Berita
-7. Link Berita.
+7. Link Berita
+
 
 ## :rice_scene: Screenshot
 
@@ -44,48 +59,24 @@ Contoh penggunaan sintaks untuk melakukan scrape pada judul berita:
 ``` sql
 contoh<-url %>% html_nodes(".read__title") %>% html_text2()
 ```
+### Hasil Scraping Tabel pada R
+Terdapat 15 baris dan 7 kolom.
+Kolom 1 : Judul Berita
+Kolom 2 : Tanggal | Waktu Terbit
+Kolom 3 : Penulis
+Kolom 4 : Editor
+Kolom 5 : Sumber
+Kolom 6 : Berita
+Kolom 7 : Link Berita.
 
-## :exclamation: Requirements
-
-- Paket R yang digunakan yaitu :
-
-library(mongolite)
-
-library(rvest)
-
-library(tidyverse)
-
-## :heavy_check_mark: Deskripsi Data
-
-Database untuk reservasi hotel ini didapatkan dengan menggunakan **teknik web scraping**. Web scraping merupakan sekumpulan teknik untuk mendapatkan informasi dari sebuah website secara otomatis tanpa harus menyalinnya secara manual. Pada database ini, kelompok kami akan menerapkan teknik web scraping pada **tiket.com** untuk mendapatkan data utama dari reservasi hotel, seperti nama hotel, alamat hotel, dan juga harga per kamar per malam. Web scraping pada **linkedin.com** untuk mendapatkan data nama guest. Web scraping pada **olx.com** untuk mendapatkan data alamat guest. Data nomor kamar, gender, nomor telepon, email dibuat secara manual. Web scraping ini digunakan untuk membangun website reservasi hotel.
+(https://github.com/irsyifa/Berita-Badminton/assets/103913260/013a64d3-6f9c-48f4-939e-4451eae74ee7.PNG)
+(https://github.com/irsyifa/Berita-Badminton/assets/103913260/719296eb-59d0-4ed2-b6a4-cd4d8fa39c44.PNG)
+(https://github.com/irsyifa/Berita-Badminton/assets/103913260/601afc22-2baf-4fb3-a7c9-9a55bec332a1.PNG)
+(https://github.com/irsyifa/Berita-Badminton/assets/103913260/4d8d8d77-57c9-4984-ab50-39bffa260577.PNG)
 
 
-### Create Table room_booked
-
-``` sql
-
-```
-
-## :open_file_folder: Struktur Folder
-
-```
-.
-├── app           # ShinyApps
-│   ├── server.R
-│   └── ui.R
-├── data 
-|   ├── xlsx
-|       └── excel tabel data
-│   └── sql
-|       └── db.sql
-├── doc           # Doc for the project
-├── .gitignore
-├── LICENSE
-└── README.md
-```
 
 ## :smiley_cat: My Github
 
 [Irsyifa Mayzela Afnan](https://github.com/irsyifa) G1501222062
 
-![image](https://user-images.githubusercontent.com/111561203/227850526-85963b40-de8b-442e-b180-11f294bdefff.png)
