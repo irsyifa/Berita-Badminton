@@ -4,15 +4,15 @@
 
 ## :bookmark_tabs: Menu
 
-- [Tentang](#scroll-tentang)
-- [Requirements](#exclamation-requirements)
-- [Parsing HTML dengan Rvest](#exclamation-parsing-html)
+- [Tentang](🏸-tentang)
+- [Package](📦-package)
+- [Parsing HTML dengan Rvest](🖥️-parsing-html)
 - [Deskripsi Data](#heavy_check_mark-deskripsi-data)
 - [Screenshot](#rice_scene-screenshot)
-- [Reference](
+- [Reference](📚-reference)
 
 
-## :scroll: Tentang
+## 🏸 Tentang
 
 BolaSport.com merupakan situs web yang memberikan berita atau informasi seputar olahraga. pada halaman awal website ini terdapat beberapa menu diantaranya :bola, ole, olimpik, lifestyle, komunitas, video, kolom, dan e-sport. Namun yang menjadi fokus penulis untuk dilakukan scraping yaitu berita bulu tangkis. 
 
@@ -26,7 +26,7 @@ library(rvest)
 library(tidyverse)
 ```
 
-## :exclamation: Parsing HTML dengan Rvest
+## 🖥️ Parsing HTML dengan Rvest
 Rvest adalah package R yang popular digunakan untuk parsing HTML, dikembangkan oleh Hadley Wickham dan merupakan bagian dari tidyverse.
 Beberapa fungsi dasar pada rvest:
 1. read_html()  : untuk membaca source HTML dari halaman web
@@ -86,7 +86,7 @@ Kolom 7 : Link Berita.
 
 [Irsyifa Mayzela Afnan](https://github.com/irsyifa) G1501222062
 
-## :smiley_cat: Reference
+## 📚 Reference
 https://rpubs.com/alfanugraha/sta1562-p13
 https://www.nurandi.id/blog/web-scraping-dengan-r-dan-rvest/
 
