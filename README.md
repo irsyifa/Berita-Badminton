@@ -16,7 +16,7 @@
 
 BolaSport.com merupakan situs web yang memberikan berita atau informasi seputar olahraga. pada halaman awal website ini terdapat beberapa menu diantaranya :bola, ole, olimpik, lifestyle, komunitas, video, kolom, dan e-sport. Namun yang menjadi fokus penulis untuk dilakukan scraping yaitu berita bulu tangkis. 
 
-## :exclamation: Requirements
+## 📦 Package
 
 Parsing HTML yaitu membaca kode HTML, serta mengekstrak informasi relevan (seperti judul, paragraf, lirik, bold text, dan lainnnya. 
 Paket R yang digunakan yaitu :
@@ -87,7 +87,7 @@ Kolom 7 : Link Berita.
 [Irsyifa Mayzela Afnan](https://github.com/irsyifa) G1501222062
 
 ## :smiley_cat: Reference
-[alfanugraha](https://rpubs.com/alfanugraha/sta1562-p13)
-[nurandi](https://www.nurandi.id/blog/web-scraping-dengan-r-dan-rvest/)
+https://rpubs.com/alfanugraha/sta1562-p13
+https://www.nurandi.id/blog/web-scraping-dengan-r-dan-rvest/
 
 
