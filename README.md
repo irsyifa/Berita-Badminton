@@ -2,16 +2,6 @@
 [![Berita-Badminton](https://github.com/irsyifa/Berita-Badminton/actions/workflows/badminton.yml/badge.svg)](https://github.com/irsyifa/Berita-Badminton/actions/workflows/badminton.yml)
 
 
-## :bookmark_tabs: Menu
-
-- [Tentang](🏸-tentang)
-- [Package](📦-package)
-- [Parsing HTML dengan Rvest](🖥️-parsing-html)
-- [Deskripsi Data](#heavy_check_mark-deskripsi-data)
-- [Screenshot](#rice_scene-screenshot)
-- [Reference](📚-reference)
-
-
 ## 🏸 Tentang
 
 BolaSport.com merupakan situs web yang memberikan berita atau informasi seputar olahraga. pada halaman awal website ini terdapat beberapa menu diantaranya :bola, ole, olimpik, lifestyle, komunitas, video, kolom, dan e-sport. Namun yang menjadi fokus penulis untuk dilakukan scraping yaitu berita bulu tangkis. 
