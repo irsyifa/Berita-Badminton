@@ -23,7 +23,7 @@ Shiny adalah paket R yang membuatnya mudah untuk membangun aplikasi web interakt
 Pada sistem manajemen database reservasi hotel ini, dibuat dashboard untuk untuk merangkum tampilan /informasi penting dalam satu layar tentang database reservasi hotel.
 
 ### 1. Halaman Awal Website
-![halaman awal]("https://github.com/irsyifa/Berita-Badminton/assets/103913260/8a0754b4-7c04-4dba-baec-58c205a22b32.PNG")
+![halaman awal](https://github.com/irsyifa/Berita-Badminton/assets/103913260/8a0754b4-7c04-4dba-baec-58c205a22b32.PNG)
 
 #### a. Tim Pengembang
 
