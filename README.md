@@ -2,15 +2,13 @@
 [![Berita-Badminton](https://github.com/irsyifa/Berita-Badminton/actions/workflows/badminton.yml/badge.svg)](https://github.com/irsyifa/Berita-Badminton/actions/workflows/badminton.yml)
 
 
-
-
 ## :bookmark_tabs: Menu
 
 - [Tentang](#scroll-tentang)
+- [Requirements](#exclamation-requirements)
 - [Deskripsi Data](#heavy_check_mark-deskripsi-data)
 - [Screenshot](#rice_scene-screenshot)
-- [Requirements](#exclamation-requirements)
-- [Struktur Folder](#open_file_folder-struktur-folder)
+
 
 ## :scroll: Tentang
 
@@ -45,7 +43,7 @@ Teknik ini digunakan untuk memperoleh data antara lain :
 ### Halaman Awal Website
 ![halaman awal](https://github.com/irsyifa/Berita-Badminton/assets/103913260/8a0754b4-7c04-4dba-baec-58c205a22b32.PNG)
 
-#### Teknik Parsing HTML
+### Teknik Parsing HTML
 Teknik ini dapat dilakukan dengan cara :
 1. Klik kanan pada halaman web, lalu klik inspect
 2. Klik elements, lalu klik tanda panah di sebelah kiri elements
@@ -69,10 +67,10 @@ Kolom 5 : Sumber
 Kolom 6 : Berita
 Kolom 7 : Link Berita.
 
-(https://github.com/irsyifa/Berita-Badminton/assets/103913260/013a64d3-6f9c-48f4-939e-4451eae74ee7.PNG)
-(https://github.com/irsyifa/Berita-Badminton/assets/103913260/719296eb-59d0-4ed2-b6a4-cd4d8fa39c44.PNG)
-(https://github.com/irsyifa/Berita-Badminton/assets/103913260/601afc22-2baf-4fb3-a7c9-9a55bec332a1.PNG)
-(https://github.com/irsyifa/Berita-Badminton/assets/103913260/4d8d8d77-57c9-4984-ab50-39bffa260577.PNG)
+![kolom 1](https://github.com/irsyifa/Berita-Badminton/assets/103913260/013a64d3-6f9c-48f4-939e-4451eae74ee7.PNG)
+![kolom 2,3,4,5](https://github.com/irsyifa/Berita-Badminton/assets/103913260/719296eb-59d0-4ed2-b6a4-cd4d8fa39c44.PNG)
+![kolom 5](https://github.com/irsyifa/Berita-Badminton/assets/103913260/601afc22-2baf-4fb3-a7c9-9a55bec332a1.PNG)
+![kolom 6](https://github.com/irsyifa/Berita-Badminton/assets/103913260/4d8d8d77-57c9-4984-ab50-39bffa260577.PNG)
 
 
 
