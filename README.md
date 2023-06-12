@@ -77,7 +77,7 @@ Terdapat 15 baris dan 7 kolom.
 [Irsyifa Mayzela Afnan](https://github.com/irsyifa) G1501222062
 
 ## 📚 Reference
-https://rpubs.com/alfanugraha/sta1562-p13
-https://www.nurandi.id/blog/web-scraping-dengan-r-dan-rvest/
+- https://rpubs.com/alfanugraha/sta1562-p13
+- https://www.nurandi.id/blog/web-scraping-dengan-r-dan-rvest/
 
 
