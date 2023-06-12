@@ -22,8 +22,8 @@ Shiny adalah paket R yang membuatnya mudah untuk membangun aplikasi web interakt
 
 Pada sistem manajemen database reservasi hotel ini, dibuat dashboard untuk untuk merangkum tampilan /informasi penting dalam satu layar tentang database reservasi hotel.
 
-### 1. Dashboard
-Pada dashboard ini menampilkan halaman tim pengembang, grafik pengunjung, dan grafik tagihan.
+### 1. Halaman Awal Website
+![Uploading image.png…]()
 
 #### a. Tim Pengembang
 
